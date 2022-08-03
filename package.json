@@ -4,6 +4,7 @@
   "description": "basic repo that im using t",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
@@ -11,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.10.0",
-    "graphql": "^16.5.0"
+    "graphql": "^16.5.0",
+    "node-fetch": "^3.2.10"
   }
 }
